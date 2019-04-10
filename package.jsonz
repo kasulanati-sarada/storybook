@@ -1,0 +1,66 @@
+{
+  "name": "my_react_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/polyfill": "^7.4.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.5.0",
+    "babel-preset-minify": "^0.5.0",
+    "eslint": "^5.15.3",
+    "express": "^4.16.4",
+    "jasmine-spec-reporter": "^4.2.1",
+    "mstrweb-search": "^1.0.11",
+    "node-sass": "^4.11.0",
+    "protractor": "^6.0.0",
+    "protractor-fail-fast": "^3.1.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "regenerator-runtime": "^0.13.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "e2e": "protractor ./conf.js",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@storybook/addon-a11y": "^5.0.3",
+    "@storybook/addon-actions": "^5.0.3",
+    "@storybook/addon-knobs": "^5.0.3",
+    "@storybook/addon-links": "^5.0.3",
+    "@storybook/addon-notes": "^5.0.3",
+    "@storybook/addon-storyshots": "^5.0.3",
+    "@storybook/addons": "^5.0.3",
+    "@storybook/react": "^5.0.3",
+    "babel-loader": "^8.0.5"
+  }
+}

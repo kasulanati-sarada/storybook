@@ -1,0 +1,62 @@
+{
+    "name": "test_demo4",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@storybook/addon-storyshots-puppeteer": "^5.0.6",
+        "@storybook/html": "^5.0.6",
+        "babel-jest": "^24.7.0",
+        "mstrweb-search": "^1.0.17",
+        "node-sass": "^4.11.0",
+        "protractor": "^6.0.0",
+        "protractor-flake": "^4.0.0",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4",
+        "react-scripts": "2.1.8"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test-react": "react-scripts test",
+        "e2e": "protractor ./conf.js --suite=main",
+        "e2e-debug": "protractor ./conf.js --suite=debug",
+        "e2e-flake": "protractor-flake --parser multi --max-attempts=3 -- ./conf.js --suite=main",
+        "eject": "react-scripts eject",
+        "storybook": "start-storybook -p 6006 -c .storybook",
+        "build-storybook": "build-storybook -c .storybook",
+        "test": "jest"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.3.4",
+        "@babel/polyfill": "^7.4.0",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/register": "^7.4.0",
+        "@storybook/addon-a11y": "^5.0.5",
+        "@storybook/addon-actions": "^5.0.3",
+        "@storybook/addon-knobs": "^5.0.5",
+        "@storybook/addon-links": "^5.0.5",
+        "@storybook/addon-notes": "^5.0.5",
+        "@storybook/addon-storyshots": "^5.0.6",
+        "@storybook/react": "^5.0.3",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-loader": "^8.0.5",
+        "babel-plugin-require-context-hook": "^1.0.0",
+        "eslint": "^5.15.3",
+        "eslint-plugin-react": "^7.12.4",
+        "jasmine-spec-reporter": "^4.2.1",
+        "jasmine2-custom-message": "^0.9.3",
+        "jest": "^24.7.1",
+        "protractor-fail-fast": "^3.1.0",
+        "react-test-renderer": "^16.8.6",
+        "require-context.macro": "^1.0.4"
+    }
+}
